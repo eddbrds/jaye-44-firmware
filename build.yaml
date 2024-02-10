@@ -1,5 +1,4 @@
 include:
-  - board: jaye
-    shield: jaye_left
-  - board: jaye
-    shield: jaye_right
+  - board: jaye_left
+  - board: jaye_right
+
