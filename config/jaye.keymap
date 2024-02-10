@@ -28,12 +28,8 @@
 
             
         };
-    };
-};
 
-{
-    keymap {
-        compatible = "zmk,keymap";
+  
 
         lower_layer {
 
@@ -46,12 +42,7 @@
 
             
         };
-    };
-};
 
-{
-    keymap {
-        compatible = "zmk,keymap";
 
         raise_layer {
 
@@ -64,12 +55,9 @@
 
             
         };
-    };
-};
 
-{
-    keymap {
-        compatible = "zmk,keymap";
+
+
 
         adjust_layer {
 
@@ -83,6 +71,8 @@
             
         };
     };
-};
+
+}
+
 
 
