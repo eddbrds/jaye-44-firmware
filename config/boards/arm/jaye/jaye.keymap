@@ -1,0 +1,84 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+
+#define DEF 0
+#define LWR 1
+#define RSE 2
+#define ADJ 3
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+
+// |   ESC   |    Q    |    W    |    E    |    R    |    T    |                                          |    Y    |    U    |    I    |    O    |    P    |    \    |
+// |   TAB   |    A    |    S    |    D    |    F    |    G    |                                          |    H    |    J    |    K    |    L    |    ;    |    '    |
+// |   GUI   |    Z    |    X    |    C    |    V    |    B    |                                          |    N    |    M    |    ,    |    .    |    /    |  R CTRL |
+//                     |   GUI   |   DEL   | RETURN  |  SPACE  |                                          |  SHIFT  |   ENTER   |   BSPC  |  R ALT  |
+
+            bindings = <
+    &kp ESC    &kp Q    &kp W    &kp E     &kp R     &kp T                                                 &sys_reset &bootloader  &kp I     &kp O     &kp P    &kp BSLH
+    &kp TAB    &kp A    &kp S    &kp D     &kp F     &kp G                                                 &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
+    &kp LSHIFT &kp Z    &kp X    &kp C     &kp V     &kp B                                                 &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                      &kp LGUI  &kp DEL   &kp RET    &kp SPACE                                             &kp SPACE &kp TAB   &kp BSPC  &kp RALT
+            >;
+
+            
+        };
+
+  
+
+        lower_layer {
+
+            bindings = <
+    &kp ESC    &kp Q    &kp W    &kp E     &kp R     &kp T                                                 &kp Y     &kp U     &kp I     &kp O     &kp P    &kp BSLH
+    &kp TAB    &kp A    &kp S    &kp D     &kp F     &kp G                                                 &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
+    &kp LSHIFT &kp Z    &kp X    &kp C     &kp V     &kp B                                                 &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                      &kp LGUI  &kp DEL   &kp RET    &kp SPACE                                             &kp SPACE &kp TAB   &kp BSPC  &kp RALT
+            >;
+
+            
+        };
+
+
+        raise_layer {
+
+            bindings = <
+    &kp ESC    &kp Q    &kp W    &kp E     &kp R     &kp T                                                 &kp Y     &kp U     &kp I     &kp O     &kp P    &kp BSLH
+    &kp TAB    &kp A    &kp S    &kp D     &kp F     &kp G                                                 &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
+    &kp LSHIFT &kp Z    &kp X    &kp C     &kp V     &kp B                                                 &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                      &kp LGUI  &kp DEL   &kp RET    &kp SPACE                                             &kp SPACE &kp TAB   &kp BSPC  &kp RALT
+            >;
+
+            
+        };
+
+
+
+
+        adjust_layer {
+
+            bindings = <
+    &kp ESC    &kp Q    &kp W    &kp E     &kp R     &kp T                                                 &kp Y     &kp U     &kp I     &kp O     &kp P    &kp BSLH
+    &kp TAB    &kp A    &kp S    &kp D     &kp F     &kp G                                                 &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
+    &kp LSHIFT &kp Z    &kp X    &kp C     &kp V     &kp B                                                 &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
+                      &kp LGUI  &kp DEL   &kp RET    &kp SPACE                                             &kp SPACE &kp TAB   &kp BSPC  &kp RALT
+            >;
+
+            
+        };
+    };
+
+};
+
+
