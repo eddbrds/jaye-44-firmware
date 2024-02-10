@@ -1,0 +1,11 @@
+file_format: "1"
+id: jaye
+name: Jaye
+type: shield
+url: eddbrds.t.me
+features:
+  - keys
+  - rgb led
+siblings:
+  - jaye_left
+  - jaye_right
