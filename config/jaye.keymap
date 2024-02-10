@@ -20,7 +20,7 @@
 //                     |   GUI   |   DEL   | RETURN  |  SPACE  |                                          |  SHIFT  |   ENTER   |   BSPC  |  R ALT  |
 
             bindings = <
-    &kp ESC    &kp Q    &kp W    &kp E     &kp R     &kp T                                                 &reset &bootloader  &kp I     &kp O     &kp P    &kp BSLH
+    &kp ESC    &kp Q    &kp W    &kp E     &kp R     &kp T                                                 &sys_reset &bootloader  &kp I     &kp O     &kp P    &kp BSLH
     &kp TAB    &kp A    &kp S    &kp D     &kp F     &kp G                                                 &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
     &kp LSHIFT &kp Z    &kp X    &kp C     &kp V     &kp B                                                 &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
                       &kp LGUI  &kp DEL   &kp RET    &kp SPACE                                             &kp SPACE &kp TAB   &kp BSPC  &kp RALT
