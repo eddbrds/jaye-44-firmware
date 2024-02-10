@@ -1,0 +1,5 @@
+include:
+  - board: jaye
+    shield: jaye_left
+  - board: jaye
+    shield: jaye  _right
