@@ -1,17 +1,35 @@
+#
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+#
 
-if SHIELD_JAYE_LEFT
+if BOARD_SKEAN_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Jaye 44"
+	default "Jaye"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
-endif
+endif # BOARD_JAYE_LEFT
 
-if SHIELD_JAYE_LEFT || SHIELD_JAYE_RIGHT
+
+if BOARD_JAYE_LEFT || BOARD_JAYE_RIGHT
+
+config BOARD
+	default "jaye"
 
 config ZMK_SPLIT
 	default y
 
-endif
+config BT_CTLR
+	default BT
+
+if USB_DEVICE_STACK
+
+config USB_NRFX
+	default y
+
+endif # USB_DEVICE_STACK
+
+endif # BOARD_JAYE_LEFT || BOARD_JAYE_RIGHT
