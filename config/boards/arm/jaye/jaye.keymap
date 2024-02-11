@@ -1,8 +1,3 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -14,6 +9,9 @@
 #define LWR 1
 #define RSE 2
 #define ADJ 3
+
+&lt { quick_tap_ms = <200>; };
+&mt { quick_tap_ms = <200>; };
 
 / {
     keymap {
@@ -80,5 +78,4 @@
     };
 
 };
-
 

@@ -1,13 +1,12 @@
 file_format: "1"
 id: jaye
 name: Jaye
-type: board
-arch: arm 
 url: eddbrds.t.me
+type: board
+arch: arm
 features:
   - keys
-  - rgb led
-  outputs: 
+outputs:
   - usb
   - ble
 siblings:

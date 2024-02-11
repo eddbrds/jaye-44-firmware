@@ -1,6 +1,5 @@
 identifier: jaye
 name: Jaye
-url: eddbrd.t.me
 type: keyboard
 arch: arm
 toolchain:
@@ -14,4 +13,6 @@ supported:
   - ieee802154
   - pwm
   - watchdog
-  - gpio
+  - kscan
+  - nvs
+  - can
