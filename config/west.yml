@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/eddbrds
+      url-base: https://github.com/eddbrds/zmk-eddition
   projects:
     - name: zmk-eddition
       remote: zmkfirmware
