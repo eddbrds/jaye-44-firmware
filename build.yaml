@@ -1,7 +1,7 @@
 include:
   - board: jaye_left
   - board: jaye_right
-  - board: nrfmicro_14
+  - board: nrfmicro_13
     shield: settings_reset
 #   shield: [jaye_left, jaye_right]
 #  - board: [jaye_left, jaye_right]
