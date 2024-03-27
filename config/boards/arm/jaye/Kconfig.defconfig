@@ -6,8 +6,10 @@ if BOARD_JAYE_LEFT
 	config ZMK_KEYBOARD_NAME
 	default "Jaye"
 
-endif # BOARD_JAYE_LEFT
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
 
+endif # BOARD_JAYE_LEFT
 
 if BOARD_JAYE_LEFT || BOARD_JAYE_RIGHT
 
@@ -17,17 +19,9 @@ config BOARD
 config ZMK_SPLIT
 	default y
 
-menuconfig SENSOR
-    bool "Sensor Drivers"
-
 config BT_CTLR
+
 	default BT
-
-config ZMK_BLE
-	default y
-
-config ZMK_USB
-	default y
 
 config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
