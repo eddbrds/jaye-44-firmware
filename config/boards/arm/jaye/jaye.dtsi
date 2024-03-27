@@ -64,7 +64,7 @@
 		io-channels = <&adc 7>; 
 		output-ohms = <2000000>;
 		full-ohms = <(2000000 + 820000)>;
-	};
+	};	
 	
 };
 
