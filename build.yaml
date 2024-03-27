@@ -1,5 +1,8 @@
 include:
   - board: jaye_left
   - board: jaye_right
-  - board: nice_nano_v2
+  - board: nrfmicro_14
     shield: settings_reset
+#   shield: [jaye_left, jaye_right]
+#  - board: [jaye_left, jaye_right]
+#    name: ["Jaye"]
