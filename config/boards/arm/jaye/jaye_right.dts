@@ -2,7 +2,7 @@
 #include "jaye.dtsi"
 
  &default_transform {
-	col-offset = <12>;
+	col-offset = <6>;
 };
 
 
