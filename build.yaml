@@ -10,3 +10,4 @@
 include:
   - board: jaye_left
   - board: jaye_right
+  - shield: settings_reset
