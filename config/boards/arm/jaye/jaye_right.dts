@@ -17,11 +17,5 @@
 		, <&gpio1  9 GPIO_ACTIVE_HIGH>
 		;
 
-   row-gpios
-            = <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio0 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            ;
 
 };
