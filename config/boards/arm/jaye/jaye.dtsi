@@ -5,7 +5,7 @@
 
 
 / {
-	model = "jaye";
+	model = "Jaye";
 	compatible = "jaye";
 
 	chosen {
