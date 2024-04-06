@@ -52,14 +52,23 @@
 
         gaming_2 {
             bindings = <
-&kp ESCAPE  &kp B           &kp Q   &kp G   &kp R   &kp NUMBER_2  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB     &kp LEFT_SHIFT  &kp A   &kp W   &kp D   &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans
-&kp X       &kp GRAVE       &kp C   &kp S   &kp E   &kp V         &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp B           &kp Q   &kp G   &kp R   &kp NUMBER_2  &trans  &trans          &trans          &trans           &trans  &trans
+&kp TAB     &kp LEFT_SHIFT  &kp A   &kp W   &kp D   &kp NUMBER_3  &kp K   &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &trans
+&kp X       &kp GRAVE       &kp C   &kp S   &kp E   &kp V         &trans  &trans          &kp DOWN_ARROW  &trans           &trans  &trans
+                            &trans  &trans  &trans  &trans        &trans  &trans          &trans          &trans
             >;
         };
 
         gaming_3 {
+            bindings = <
+&trans  &lt 4 NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_5      &kp NUMBER_6  &trans           &kp F4  &kp F12  &trans  &trans  &trans
+&trans  &kp Q           &kp W         &kp E         &mt LEFT_SHIFT R  &kp T         &kp PRINTSCREEN  &trans  &trans   &trans  &trans  &trans
+&trans  &kp NUMBER_4    &kp S         &kp D         &kp G             &kp B         &trans           &trans  &trans   &trans  &trans  &trans
+                        &trans        &trans        &trans            &trans        &trans           &trans  &trans   &trans
+            >;
+        };
+
+        layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
