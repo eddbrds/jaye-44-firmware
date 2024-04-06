@@ -8,7 +8,7 @@
 #define RSE 2
 #define ADJ 3
 
-tapping-term-ms = <175>;};
+// tapping-term-ms = <175>;};
 
 &mt { quick_tap_ms = <200>; };
 
