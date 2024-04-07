@@ -58,6 +58,8 @@
 		};
 	  };
 
+	wakeup-source;
+
 	vbatt: vbatt {
 		compatible = "zmk,battery-voltage-divider";
 		label = "VBATT";
