@@ -40,9 +40,10 @@
 	 kscan0: kscan {
        	 	compatible = "zmk,kscan-gpio-matrix";
 		label = "KSCAN";
+		wakeup-source;
 
-        diode-direction = "col2row";
-        row-gpios
+       	 diode-direction = "col2row";
+       	 row-gpios
             = <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -70,7 +71,7 @@
         };
     };
 
-	wakeup-source;
+	
 
 	vbatt: vbatt {
 		compatible = "zmk,battery-voltage-divider";
