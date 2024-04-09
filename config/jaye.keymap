@@ -76,19 +76,19 @@
 
         gaming_2 {
             bindings = <
-&kp ESCAPE  &kp B           &kp Q      &kp G      &kp R         &kp NUMBER_2  &kp PRINTSCREEN  &trans          &trans          &trans           &trans  &trans
-&kp TAB     &kp LEFT_SHIFT  &kp A      &kp W      &kp D         &kp NUMBER_3  &kp K            &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &trans
-&kp Z       &kp X           &kp C      &kp S      &kp E         &kp V         &trans           &trans          &kp DOWN_ARROW  &trans           &trans  &to 0
-                            &kp GRAVE  &kp LCTRL  &kp LEFT_ALT  &kp SPACE     &trans           &trans          &trans          &to 0
+&kp ESCAPE  &kp B           &kp Q      &kp G      &kp R         &kp T      &kp PRINTSCREEN  &kp F3          &kp F4          &kp F5           &kp F11  &kp F12
+&kp TAB     &kp LEFT_SHIFT  &kp A      &kp W      &kp D         &kp G      &kp K            &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans   &trans
+&kp Z       &kp X           &kp C      &kp S      &kp E         &kp V      &trans           &trans          &kp DOWN_ARROW  &trans           &trans   &to 0
+                            &kp GRAVE  &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &trans           &lt 1 ENTER     &trans          &to 0
             >;
         };
 
         gaming_3 {
             bindings = <
-&kp ESCAPE  &lt 4 NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_5      &kp NUMBER_6  &kp Y            &kp F4  &kp F12  &trans  &trans  &trans
-&kp TAB     &kp Q           &kp W         &kp E         &mt LEFT_SHIFT R  &kp T         &kp PRINTSCREEN  &trans  &trans   &trans  &trans  &trans
-&trans      &kp NUMBER_4    &kp S         &kp D         &kp G             &kp B         &trans           &trans  &trans   &trans  &trans  &to 0
-                            &kp C         &kp LCTRL     &kp LEFT_ALT      &kp SPACE     &trans           &trans  &trans   &trans
+&kp ESCAPE  &lt 4 NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_5      &kp NUMBER_6  &kp Y            &kp F4       &kp F12  &trans  &trans  &trans
+&kp TAB     &kp Q           &kp W         &kp E         &mt LEFT_SHIFT R  &kp T         &kp PRINTSCREEN  &trans       &trans   &trans  &trans  &trans
+&trans      &kp NUMBER_4    &kp S         &kp D         &kp G             &kp B         &trans           &trans       &trans   &trans  &trans  &to 0
+                            &kp C         &kp LCTRL     &kp LEFT_ALT      &kp SPACE     &trans           &lt 1 ENTER  &trans   &trans
             >;
         };
 
