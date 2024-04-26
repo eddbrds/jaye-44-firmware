@@ -76,9 +76,9 @@
 
         gaming_2 {
             bindings = <
-&kp ESCAPE  &kp B           &kp Q      &kp G      &kp R         &kp T      &kp PRINTSCREEN  &kp F3          &kp F4          &kp F5           &kp F11  &kp F12
-&kp TAB     &kp LEFT_SHIFT  &kp A      &kp W      &kp D         &kp G      &kp K            &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans   &trans
-&kp Z       &kp X           &kp C      &kp S      &kp E         &kp V      &trans           &trans          &kp DOWN_ARROW  &trans           &trans   &to 0
+&kp ESCAPE  &kp V           &kp Q      &kp G      &kp R         &kp T      &kp PRINTSCREEN  &kp F3          &kp F4          &kp F5           &kp F11  &kp F12
+&kp TAB     &kp LEFT_SHIFT  &kp A      &kp W      &kp D         &kp F      &kp K            &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans   &trans
+&kp Z       &kp X           &kp C      &kp S      &kp E         &kp B      &trans           &trans          &kp DOWN_ARROW  &trans           &trans   &to 0
                             &kp GRAVE  &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &trans           &lt 1 ENTER     &trans          &to 0
             >;
         };
