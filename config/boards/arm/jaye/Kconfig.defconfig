@@ -60,7 +60,7 @@ config RGBLED_WIDGET_INTERVAL_MS
 
 config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
     int "High battery level percentage"
-    default 80
+    default 50
 
 config RGBLED_WIDGET_BATTERY_LEVEL_LOW
     int "Low battery level percentage"
@@ -68,7 +68,7 @@ config RGBLED_WIDGET_BATTERY_LEVEL_LOW
 
 config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
     int "Critical battery level percentage"
-    default 5
+    default 10
 
 config RGBLED_WIDGET_SHOW_LAYER_CHANGE
     bool "Indicate highest active layer on each layer change with a sequence of blinks"
