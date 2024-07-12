@@ -62,10 +62,10 @@
         compatible = "gpio-leds";
         status = "okay";
         led0: led_0 {
-            gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;  
+            gpios = <&gpio0 25 GPIO_ACTIVE_LOW>;  
         };
         led1: led_1 {
-            gpios = <&gpio0 25 GPIO_ACTIVE_LOW>;  
+            gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;  
         };
         led2: led_2 {
             gpios = <&gpio0 3 GPIO_ACTIVE_LOW>;  
