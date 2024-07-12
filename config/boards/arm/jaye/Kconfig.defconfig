@@ -52,7 +52,7 @@ config RGBLED_WIDGET_BATTERY_BLINK_MS
 
 config RGBLED_WIDGET_OUTPUT_BLINK_MS
     int "Duration of BLE connection status blink in ms"
-    default 10000
+    default 1000
 
 config RGBLED_WIDGET_INTERVAL_MS
     int "Minimum wait duration between two blinks in ms"
