@@ -51,10 +51,11 @@
             ;
     };
 
+	{
     aliases {
         led-red = &led0;
         led-green = &led1;
-        led-blue = &led0;
+        led-blue = &led2;
     };
 
     leds {
@@ -70,6 +71,7 @@
             gpios = <&gpio0 25 GPIO_ACTIVE_LOW>;  
         };
     };
+};
 
 	
 
