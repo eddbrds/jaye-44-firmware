@@ -4,6 +4,7 @@
   - board: nrfmicro_13
     shield: settings_reset
     snippet: zmk-usb-logging
+
 #   shield: [jaye_left, jaye_right]
 #  - board: [jaye_left, jaye_right]
 #    name: ["Jaye"]
