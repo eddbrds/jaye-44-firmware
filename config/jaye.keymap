@@ -78,7 +78,7 @@
 
         lower_layer {
             bindings = <
-&kp ESC        &kp SLASH       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &kp F1           &kp F3    &kp F4    &kp F11    &kp F12       &kp BSLH
+&kp ESC        &kp SLASH       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &kp F1           &kp F2    &kp F3    &kp F4     &kp F5        &kp BSLH
 &kp DOT        &kp LEFT_SHIFT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL  &kp PRINTSCREEN  &kp LEFT  &kp UP    &kp RIGHT  &kp DEL       &kp SQT
 &kp BACKSLASH  &kp BACKSPACE   &kp N7        &kp N8        &kp N9        &kp MINUS  &none            &none     &kp DOWN  &kp DOT    &kp C_VOL_DN  &kp C_VOL_UP
                                &kp N0        &trans        &trans        &trans     &trans           &trans    &trans    &none
@@ -105,8 +105,8 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &kp F2       &kp F3  &kp F4  &kp F5  &trans        &trans        &trans         &trans      &trans       &trans
-&trans  &trans  &trans       &trans  &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_DISC 0  &bt BT_CLR  &bootloader  &trans
+&kp F1  &kp F2  &kp F3       &kp F4  &kp F5  &kp F6  &trans        &trans        &trans         &trans      &trans       &trans
+&kp F7  &kp F8  &kp F9       &trans  &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_DISC 0  &bt BT_CLR  &bootloader  &trans
 &trans  &trans  &trans       &trans  &trans  &trans  &trans        &trans        &trans         &trans      &trans       &trans
                 &bootloader  &trans  &trans  &trans  &trans        &trans        &trans         &trans
             >;
